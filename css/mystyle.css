@@ -1,0 +1,26 @@
+.btn-primary{
+    background-color: rgb(40, 217, 40);
+    border: rgb(40, 217, 40);
+  }
+
+.createbutton{
+
+  font-weight: bolder;
+} 
+
+.deletebutton{
+
+  position: relative;
+  bottom: 4px;
+  right: 3px;
+}
+
+.editbutton{
+
+  position: relative;
+  bottom: 1.5px;
+}
+.trashbutton {
+  color:red;
+  background-color: red;
+}
