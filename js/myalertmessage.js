@@ -5,13 +5,13 @@
         var self = this;
         var id = $(this).attr('data-id');
         Swal.fire({
-          title: 'Are you sure?',
-          text: "You won't be able to revert this!",
+          title: '¿Quieres eliminar este registro?',
+          text: "No se revertiran los cambios!",
           icon: 'warning',
           showCancelButton: true,
           confirmButtonColor: '#3085d6',
           cancelButtonColor: '#d33',
-          confirmButtonText: 'Yes, delete it!'
+          confirmButtonText: 'Si, Eliminar!'
         }).then((result) => {
           if (result.value) {
             //ajax
@@ -24,8 +24,8 @@
                 success: function(){
                     $(self).parents('tr').remove();
                     Swal.fire(
-                        'Deleted!',
-                        'Your file has been deleted.',
+                        'Eliminado!',
+                        'El registro se ha eliminado.',
                         'success'
                         
                     )
