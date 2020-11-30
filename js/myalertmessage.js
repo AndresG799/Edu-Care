@@ -1,11 +1,10 @@
 (function(){
     $("tr td #delete").click(function(ev){
         ev.preventDefault();
-        console.log(ev);
         var self = this;
         var id = $(this).attr('data-id');
         Swal.fire({
-          title: '¿Quieres eliminar este registro?',
+          title: '¿Quieres eliminar este registro?:D',
           text: "No se revertiran los cambios!",
           icon: 'warning',
           showCancelButton: true,
@@ -19,8 +18,8 @@
             $.ajax({
 
                 type: 'POST',
-                url: 'http://localhost:10080/CodeIgniter3-EduCare/Usuarios/delete',
-                data: {'id': id},
+                url: 'http://localhost:10080/CodeIgniter3-EduCare/Instructores/delete',
+                data: {'IdInstructor': id},
                 success: function(){
                     $(self).parents('tr').remove();
                     Swal.fire(

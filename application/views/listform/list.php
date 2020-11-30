@@ -71,11 +71,11 @@
 
     </div>
 </div>
-    
+    <script src="<?php echo base_url('/js/jquery-3.5.1.min.js');?>"></script>
     <script src="<?php echo base_url('/libs/sweetalert/dist/sweetalert2.js');?>"></script>
     <script src="<?php echo base_url('/libs/sweetalert/dist/sweetalert2.min.js');?>"></script>
     <script src="<?php echo base_url('/js/myalertmessage.js');?>"></script>
-    <script src="<?php echo base_url('/js/jquery-3.5.1.min.js');?>"></script>
+    
     
 </body>
 </html>

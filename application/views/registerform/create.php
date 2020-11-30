@@ -20,7 +20,7 @@
 </div>
 <div class="container">
     <h3>Register User</h3>
-    <form method="post" name="registerForm">
+    <form method="post" name="registerForm" action="<?php echo base_url('Usuarios/create');?>">
     <div class="row">
         <div class="col-md-12">
 
@@ -37,9 +37,9 @@
             </div>
             !-->
             <div class="form-group">
-                <button type="button" id="createbutton" class = "btn btn-primary" >Create</button>
-                <!--<input type="button" id="createbutton" name = "name" id="nombre" value = "Create" >!-->
-                
+                <button id="createbutton" class = "btn btn-primary" >Create</button>
+                <!--<input id="createbutton" name = "name" id="nombre" value = "Create" >!-->
+            
                 <a href="#" id="ty" class = "btn btn-primary">Cancel</a>
 
             </div>

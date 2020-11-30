@@ -21,13 +21,17 @@ class Usuarios extends CI_Controller {
             $this->load->view('registerform/create');
         }
         else{
-            $data = [
+            /*$data = [
                 'nombre' => $this->input->post('name')
     
             ];
-            $this->UsuariosModel->insert($data);
-        }
+            $this->UsuariosModel->insert($data);*/
 
+            $formArray = array();
+            $formArray['nombre'] = $this->input->post('name');
+            $this->UsuariosModel->insert($formArray);
+        }
+       
        
         
     }

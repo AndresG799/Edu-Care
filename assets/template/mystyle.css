@@ -1,0 +1,229 @@
+#registertopbutton{
+
+    font-weight: bolder;
+    margin-top: 2%;
+    
+}
+
+#logintopbutton{
+    font-weight: bolder;
+    margin-top: 2%;
+    margin-left: 2mm;
+    margin-right: 2mm;
+}
+.user-image{
+    
+}
+body{
+
+}
+
+hr{
+    border-top: 1px solid rgb(128, 128, 128);
+}
+
+#maintitle{
+
+    text-align: center;
+    background: linear-gradient(180deg, rgba(62,118,150,1) 0%, rgba(23,147,221,1) 88%, rgba(247,247,247,1) 100%);
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 4px 2px #888888;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+}
+
+
+#secondary-content{
+
+    width: 65%;
+    height: 450px;
+    margin-left: 17%;
+    background: linear-gradient(180deg, rgba(62,118,150,1) 0%, rgba(23,147,221,1) 74%, rgba(0,189,255,1) 100%);
+
+}
+
+#inside-content{
+    position: relative;
+    padding-left: 1.5%;
+    top: 30%;
+    left: 50px;
+    width: 350px;
+    height: 200px;
+    background-color: white;
+}
+
+.firstspan-inside{
+
+
+    font-size: 30px;
+    /*padding: 10px;*/
+    padding-right: 40px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.secondspan-inside{
+
+    font-size: 25px;
+}
+
+.img-incontent{
+    position: relative;
+    left: 50%;
+    bottom: 20%;
+}
+
+#accessinfo{
+
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.img-instruct{
+    position: relative;
+    float: left;
+    top: 7px;
+    margin-right: 15px;
+}
+.span-frist-instructinfo{
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12pt;
+}
+
+.span-frist-resourceinfo{
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12pt;
+}
+.span-frist-discountinfo{
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12pt;
+}
+
+
+
+#resource{
+    position: relative;
+    bottom: 40px;
+    left: 30%;
+    top: 40%;
+    margin-left: 10%;
+}
+
+#discount{
+    position: relative;
+    bottom: 85px;
+    left: 60%;
+    top: 40%;
+    margin-left: 10%;
+}
+
+.img-programation, .btn-programation{
+
+    position: relative;
+    left: 15%
+}
+
+.programation-instructor, .programation-titlecurse, .programation-cost{
+    position: relative;
+    left: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.programation-titlecurse{
+
+   font-weight: bolder;
+
+    
+}
+
+.programation-instructor{
+
+    font-size: 9pt;
+    font-style: oblique;
+}
+
+.programation-cost{
+    font-weight: bolder;
+}
+
+.img-business, .btn-business{
+
+    position: relative;
+    left: 45%;
+}
+
+.business-instructor, .business-titlecurse, .business-cost{
+    position: relative;
+    left: 45%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.business-titlecurse{
+
+   font-weight: bolder;
+
+    
+}
+
+.business-instructor{
+
+    font-size: 9pt;
+    font-style: oblique;
+}
+
+.business-cost{
+    font-weight: bolder;
+}
+
+#curse-business{
+
+    position: relative;
+    bottom: 230px;
+}
+
+.img-devweb, .btn-devweb{
+
+    position: relative;
+    left: 75%;
+}
+
+.devweb-instructor, .devweb-titlecurse, .devweb-cost{
+    position: relative;
+    left: 75%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.devweb-titlecurse{
+
+   font-weight: bolder;
+
+    
+}
+
+.devweb-instructor{
+
+    font-size: 9pt;
+    font-style: oblique;
+}
+
+.devweb-cost{
+    font-weight: bolder;
+}
+
+#curse-devweb{
+
+    position: relative;
+    bottom: 460px;
+}

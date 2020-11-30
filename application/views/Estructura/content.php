@@ -42,17 +42,17 @@
     <!-- INFO THUMBNAILS -->
     <div class="one-third-padding" id="services">
       <h3>Mision</h3>
-      <img src="img/Misión.png" alt="">
+      <img src="<?php echo base_url('/img/Misión.png')?>" alt="">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis assumenda provident recusandae deserunt aperiam laboriosam distinctio sed itaque quas maxime!</p>
     </div>
     <div class="one-third-padding">
       <h3>Vision</h3>
-      <img src="img/Vision.jpg" alt="">
+      <img src="<?php echo base_url('/img/Vision.jpg');?>" alt="">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis assumenda provident recusandae deserunt aperiam laboriosam distinctio sed itaque quas maxime!</p>
     </div>
     <div class="one-third-padding">
       <h3>Valores</h3>
-      <img src="img/valores-1.png" alt="">  
+      <img src="<?php echo base_url('/img/valores-1.png')?>" alt="">  
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis assumenda provident recusandae deserunt aperiam laboriosam distinctio sed itaque quas maxime!</p>
     </div>
   </div>

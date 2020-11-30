@@ -1,6 +1,7 @@
 <body>
 
   <!-- MAIN WRAPPER -->
+  <nav class="navbar navbar-dark bg-dark">
   <div id="wrapper">
 
     <!-- BANNER WRAPPER -->
@@ -11,14 +12,14 @@
                 <img src="img/pics/EduC.png" alt="">
             </a>
 
-            <nav>
+           
                 <a href="#" id="menu-icon">
                 <i class="fa fa-bars"></i>
                 </a>
                 <ul>
                 <li>
                     <a href="index.html" class="current">
-                    Inicio
+                    InicioX
                     </a>
                 </li>
                 <li>
@@ -52,6 +53,6 @@
                     </a>
                 </li>
                 </ul>
-            </nav>
+            
             </div>
         </header>
